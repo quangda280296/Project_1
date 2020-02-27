@@ -1,0 +1,85 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="mtf_cardHeight_initial">4dp</dimen>
+    <dimen name="mtf_cardHeight_final">55dp</dimen>
+    <dimen name="mtf_corner_radius">4dp</dimen>
+    <integer name="duration_bar">800</integer>
+    <integer name="duration_search">800</integer>
+    <dimen name="item_height">80dp</dimen>
+    <dimen name="item_padding">16dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="default_corner_radius">4dp</dimen>
+    <dimen name="default_shadow_radius">4dp</dimen>
+
+    <dimen name="default_boom_button_corner_radius">28dp</dimen>
+
+    <dimen name="default_circle_button_corner_2radius">80dp</dimen>
+    <dimen name="default_circle_button_corner_radius">40dp</dimen>
+    <dimen name="default_circle_button_text_size">10sp</dimen>
+
+    <dimen name="default_ham_button_corner_radius">3dp</dimen>
+
+    <string name="button_type">Button Type</string>
+    <string name="circle_button">Circle Button</string>
+    <string name="hamburger_button">Hamburger Button</string>
+
+    <string name="button_number">Button Number</string>
+
+    <string name="boom_type">Boom Type</string>
+
+    <string name="place_type">Place Type</string>
+
+    <string name="animation_duration">Animation Duration</string>
+    <string name="animation_start_delay">Animation Start Delay</string>
+    <string name="animation_rotation_degree">Animation Rotation Degree</string>
+    <string name="auto_dismiss">Auto Dismiss</string>
+
+    <string name="show_order_type">Show Order</string>
+    <string name="show_order_type_default">Default</string>
+    <string name="show_order_type_reverse">Reverse</string>
+    <string name="show_order_type_random">Random</string>
+
+    <string name="hide_order_type">Hide Order</string>
+    <string name="hide_order_type_default">Default</string>
+    <string name="hide_order_type_reverse">Reverse</string>
+    <string name="hide_order_type_random">Random</string>
+
+    <string name="animation_listener">Animation Listener</string>
+
+    <string name="click_effect">Click Effect</string>
+    <string name="click_effect_ripple">Ripple</string>
+    <string name="click_effect_normal">Normal</string>
+
+    <string name="examples">Examples</string>
+    <string name="easy_example">Easy Example</string>
+    <string name="list_view_example">ListView Example</string>
+    <string name="share_example">Share Example</string>
+    <string name="builder_example">Builder Example</string>
+
+    <string name="easy_example_text">This is an easy use of BoomMenuButton.</string>
+    <string name="share_example_text">This is a share example of BoomMenuButton.</string>
+
+    <string name="share_line_width">Line Width</string>
+
+    <dimen name="action_menu_radius">96dp</dimen>
+    <dimen name="action_button_size">72dp</dimen>
+    <dimen name="action_button_margin">12dp</dimen>
+    <dimen name="action_button_content_margin">16dp</dimen>
+    <dimen name="sub_action_button_size">36dp</dimen>
+    <dimen name="sub_action_button_content_margin">6dp</dimen>
+
+    <dimen name="text_view_margin">16dp</dimen>
+    <dimen name="end_text_margin">16dp</dimen>
+
+    <dimen name="si_default_text_size">18sp</dimen>
+    <dimen name="si_default_radius_max">24dp</dimen>
+    <dimen name="si_default_radius_min">8dp</dimen>
+
+    <dimen name="blue_sub_action_button_content_margin">15dp</dimen>
+    <dimen name="red_action_menu_radius">68dp</dimen>
+    <dimen name="blue_sub_action_button_size">50dp</dimen>
+
+</resources>

@@ -1,0 +1,172 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="quang.project2">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="quang.project2.view.loading.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="quang.project2.view.homebackground.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="quang.project2.view.homebackground.MainActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="quang.project2.view.home.MainActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="quang.project2.view.homebackground.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="quang.project2.view.home.MainActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="quang.project2.view.song.Songs"
+            android:label="@string/app_name"
+            android:parentActivityName="quang.project2.view.home.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="quang.project2.view.song.Songs" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="quang.project2.view.album.Albums"
+            android:label="@string/app_name"
+            android:parentActivityName="quang.project2.view.home.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="quang.project2.view.album.Albums" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="quang.project2.view.artist.Artists"
+            android:label="@string/app_name"
+            android:parentActivityName="quang.project2.view.home.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="quang.project2.view.artist.Artists" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="quang.project2.view.playlist.Playlists"
+            android:label="@string/app_name"
+            android:parentActivityName="quang.project2.view.home.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="quang.project2.view.playlist.Playlists" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="quang.project2.view.favouritesong.FavouriteSongs"
+            android:label="@string/app_name"
+            android:parentActivityName="quang.project2.view.home.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="quang.project2.view.favouritesong.FavouriteSongs" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="quang.project2.view.folder.Folders"
+            android:label="@string/app_name"
+            android:parentActivityName="quang.project2.view.home.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="quang.project2.view.folder.Folders" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="quang.project2.view.playmusic.PlayMusic"
+            android:label="@string/app_name"
+            android:parentActivityName="quang.project2.view.home.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="quang.project2.view.playmusic.PlayMusic" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="quang.project2.view.AboutActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="quang.project2.view.home.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="quang.project2.view.AboutActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="quang.project2.view.album.Songs"
+            android:label="@string/app_name"
+            android:parentActivityName="quang.project2.view.album.Albums"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="quang.project2.view.album.Songs" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="quang.project2.view.artist.Songs"
+            android:label="@string/app_name"
+            android:parentActivityName="quang.project2.view.artist.Artists"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="quang.project2.view.artist.Songs" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="quang.project2.view.folder.Songs"
+            android:label="@string/app_name"
+            android:parentActivityName="quang.project2.view.folder.Folders"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="quang.project2.view.folder.Songs" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="quang.project2.view.playlist.FavouriteSongs"
+            android:label="@string/app_name"
+            android:parentActivityName="quang.project2.view.playlist.Playlists"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="quang.project2.view.playlist.FavouriteSongs" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

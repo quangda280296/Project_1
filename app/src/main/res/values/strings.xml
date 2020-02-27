@@ -1,0 +1,77 @@
+<resources>
+    <string name = "app_name">Project 2</string>
+    <string name = "shuffle">Shuffle</string>
+    <string name = "search">Search</string>
+    <string name = "song">Songs</string>
+    <string name = "album">Albums</string>
+    <string name = "artist">Artist</string>
+    <string name = "playlist">Playlists</string>
+    <string name = "favourite_song">Favourite Songs</string>
+    <string name = "folder">Folder</string>
+    <string name = "about">About</string>
+    <string name = "exit">Exit</string>
+    <string name="text_inside_circle_button_text_normal">Text Inside Circle Button(Normal)</string>
+    <string name="text_outside_circle_button_text_normal">Text Outside Circle Button(Normal)</string>
+    <string name="text_ham_button_text_normal">Ham Button Text(Normal)</string>
+    <string name="text_ham_button_sub_text_normal">Ham Button Sub Text(Normal)</string>
+    <string name="background_image_str">Background image for album art</string>
+    <string name="play_pause">play or pause</string>
+    <string name="skip_next">skip to next</string>
+    <string name="skip_prev">skip to previous</string>
+    <string name="license">
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+\n\n
+    http://www.apache.org/licenses/LICENSE-2.0
+\n\n
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+    </string>
+
+    <string name = "add_favourite_song">Add song to favourite songs successfully</string>
+    <string name = "fail">This song already exists in favourite songs list</string>
+
+    <string name = "language">Language</string>
+
+    <string name = "add">Add to Playlist</string>
+    <string name = "add_new">Add a new Playlist</string>
+    <string name = "new_playlist">Playlist name</string>
+    <string name = "add_playlist">Add song to playlist successfully</string>
+    <string name = "fail_pl">This song already exists in playlist</string>
+    <string name = "detail">Detail</string>
+
+    <string name="name">Name</string>
+    <string name="duration">Duration</string>
+    <string name="size">Size</string>
+    <string name="path">Location</string>
+    <string name="format">Format</string>
+    <string name="time">Set sleep timer</string>
+    <string name="theme">Theme</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="select">Select songs</string>
+    <string name="add_new_playlist">Add a new playlist</string>
+    <string name="rename">Rename</string>
+    <string name="delete">Delete</string>
+    <string name = "noti">Please enter correctly the playlist name</string>
+    <string name = "add_queue">Song added to queue</string>
+    <string name = "shuffle_off">Shuffle: Off</string>
+    <string name = "shuffle_on">Shuffle: On</string>
+    <string name = "repeat_off">Repeat: Off</string>
+    <string name = "repeat_all">Repeat: All</string>
+    <string name = "repeat_one">Repeat: Current Song</string>
+    <string name = "tap_to_rename">Tap the playlist to rename</string>
+    <string name = "tap_to_delete">Tap the playlist to delete</string>
+    <string name = "sleep">Sleep after:</string>
+    <string name = "minutes">minutes from now</string>
+    <string name = "confirm">Are you sure that you want to delete ?</string>
+    <string name  = "timer_off">Sleep timer: off</string>
+    <string name = "remove">removed</string>
+    <string name = "undo">UNDO</string>
+    <string name = "edit_playlist">Select Songs</string>
+</resources>

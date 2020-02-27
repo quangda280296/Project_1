@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ShimmerView">
+        <attr name="reflectionColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="MaterialTextField">
+        <attr name="mtf_cardCollapsedHeight" format="dimension"/>
+        <attr name="mtf_labelColor" format="color"/>
+        <attr name="mtf_image" format="reference"/>
+        <attr name="mtf_hasFocus" format="boolean"/>
+        <attr name="mtf_animationDuration" format="integer"/>
+        <attr name="mtf_openKeyboardOnFocus" format="boolean"/>
+    </declare-styleable>
+
+        <declare-styleable name="ShadowLayout">
+            <attr name="sl_cornerRadius" format="dimension"/>
+            <attr name="sl_shadowRadius" format="dimension"/>
+            <attr name="sl_shadowColor" format="color"/>
+            <attr name="sl_dx" format="dimension"/>
+            <attr name="sl_dy" format="dimension"/>
+        </declare-styleable>
+
+        <declare-styleable name="BoomMenuButton">
+            <attr name="boom_inActionBar" format="boolean"/>
+            <attr name="boom_inList" format="boolean"/>
+            <attr name="boom_button_color" format="color"/>
+            <attr name="boom_button_pressed_color" format="color"/>
+        </declare-styleable>
+
+    <declare-styleable name="SpringIndicator">
+
+        <!--tab text color -->
+        <attr name="siTextColor" format="reference"/>
+
+        <!--tab text color which is selected-->
+        <attr name="siSelectedTextColor" format="reference"/>
+
+        <!--tab item bg -->
+        <attr name="siTextBg" format="reference"/>
+
+        <!--tab text size-->
+        <attr name="siTextSize" format="dimension"/>
+
+        <!--indicator bg color-->
+        <attr name="siIndicatorColor" format="reference"/>
+
+        <!--indicator bg colors. should equals your titles count-->
+        <attr name="siIndicatorColors" format="reference"/>
+
+        <!--max indicator radius-->
+        <attr name="siRadiusMax" format="dimension"/>
+
+        <!--min indicator radius when moving-->
+        <attr name="siRadiusMin" format="dimension"/>
+
+    </declare-styleable>
+
+</resources>

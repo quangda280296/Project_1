@@ -1,0 +1,32 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.loading.MainActivity"
+    android:background="#000000"
+    >
+
+    <quang.project2.view.loading.shimmer.ShimmerTextView
+    android:id="@+id/shimmer_tv"
+    android:text="HUST music player"
+    android:textStyle="bold"
+    android:layout_width="wrap_content"
+    android:layout_height="88dp"
+    android:textColor="#444"
+    android:textSize="35sp"
+    android:layout_gravity="center_horizontal|bottom"/>
+
+    <quang.project2.view.loading.TitanicTextView
+        android:id="@+id/my_text_view"
+        android:text="Loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#212121"
+        android:textSize="100sp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"/>
+
+</FrameLayout>
